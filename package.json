@@ -1,0 +1,27 @@
+{
+  "name": "clogger.api.rest_minion",
+  "version": "0.0.1",
+  "description": "simple example of worker process handling clogger API REST transactions. It uses MongoDB for persistence and AMQP to transact with the API server.",
+  "main": "minion.js",
+  "dependencies": {
+    "amqp": "~0.1.8",
+    "underscore": "~1.6.0",
+    "mongoose": "~3.8.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/csolar/clogger.api.rest_minion.git"
+  },
+  "keywords": [
+    "clogger",
+    "worker",
+    "REST",
+    "API"
+  ],
+  "author": "Cristiano Solarino",
+  "license": "MIT"
+}
